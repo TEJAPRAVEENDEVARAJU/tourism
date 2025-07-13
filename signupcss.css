@@ -1,0 +1,175 @@
+
+#fname,#lname,#email,#password,#repassword,#phno,#places,#guests,#date,#msg
+{
+	height: 50px;
+	font-size: 25px;
+	border-radius: 5px;
+	
+}
+
+#fname
+{
+	animation: fname 5s infinite;
+}
+@keyframes fname
+{
+	50% {box-shadow: 20px 20px 30px green;}
+}
+
+#lname
+{
+	animation: lname 5s infinite;
+}
+
+@keyframes lname
+{
+	50% {box-shadow: 20px 20px 30px green;}
+}
+
+#email
+{
+	animation: email 5s infinite;
+}
+
+@keyframes email
+{
+	50% {box-shadow: 20px 20px 30px red;}
+}
+
+#password
+{
+	animation: password 5s infinite;
+}
+
+@keyframes password
+{
+	50% {box-shadow: 20px 20px 30px cyan;}
+}
+
+#repassword
+{
+	animation: repassword 5s infinite;
+}
+
+@keyframes repassword
+{
+	50% {box-shadow: 20px 20px 30px cyan;}
+}
+
+#phno
+{
+	animation: phno 5s infinite;
+}
+
+@keyframes phno
+{
+	50% {box-shadow: 20px 20px 30px black;}
+}
+
+#msg
+{
+	animation: msg 5s infinite;
+}
+
+@keyframes msg
+{
+	50% {box-shadow: 20px 20px 30px orange;}
+}
+
+
+form input[type="email"]
+{
+	text-transform: lowercase;
+}
+
+
+
+.glow-on-hover {
+  background-color: transparent;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+}
+
+.glow-on-hover:hover {
+  box-shadow:  5px 20px 20px #00d7c3;
+}
+
+.c1
+{
+	font-size: 20px;
+}
+
+.glow-on-login
+{
+	background-color: transparent;
+	border: 3px solid #00d7c3;
+	border-radius: 50px;
+}
+
+.glow-on-login:hover
+{
+	box-shadow:  20px -20px 20px #0ff71a;
+}
+
+img.log1
+{
+	width: 600px;
+	height: 600px;
+	float: left;
+}
+img.log2
+{
+	width: 600px;
+	height: 600px;
+	float: left;
+}
+img.log3
+{
+	width: 600px;
+	height: 600px;
+	float: left;
+}
+
+
+
+.form
+{
+	font-size: 20px;
+	padding-top: 150px;
+	padding-left: 40px;
+}
+
+
+#places
+{
+	animation: places 5s infinite;
+}
+
+@keyframes places
+{
+	50% {box-shadow: 20px 20px 30px red;}
+}
+	
+#guests
+{
+	animation: guests 5s infinite;
+}
+
+@keyframes guests
+{
+	50% {box-shadow: 20px 20px 30px cyan;}
+}
+
+#date
+{
+	animation: date 5s infinite;
+}
+
+@keyframes date
+{
+	50% {box-shadow: 20px 20px 30px  black;}
+}
+
+#icon{
+	font-size: 20px;
+}
